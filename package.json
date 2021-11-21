@@ -1,7 +1,7 @@
 {
   "displayName": "Homebridge Gate Button",
   "name": "homebridge-gate-button",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Simple button to open/close gate",
   "license": "Apache-2.0",
   "repository": "https://github.com/dimapashkov/homebridge-gate-button.git",
