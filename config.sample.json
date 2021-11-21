@@ -1,25 +1,22 @@
 {
-  "platform": "RemoteGatewayHomebridgePlugin",
-  "name": "Remote Gateway",
-  "wsConnectionURL": "ws://host:port/url",
-  "wsReconnectInterval": 10,
-  "mqttPort": 1883,
+  "platform": "HomebridgeGateButtonPlugin",
+  "name": "Gate Button",
   "devices": [
     {
       "key": "6c74dd79ba6b591a7e3515017b3b15c7",
       "type": "gate",
       "displayName": "Gate",
-      "switchUrl": "cmnd/rf433/backlog",
+      "switchUrl": "http://test.com/test2",
       "switchReqType": "GET",
-      "switchMessage": "RfSync 1; RfLow 1; RfHigh 1; RfCode #000000;"
+      "switchMessage": "some message"
     },
     {
       "key": "f04df21343ef19db64bebcdc0af7f617",
       "type": "switch",
       "displayName": "Light",
-      "switchUrl": "cmnd/rf433/backlog",
+      "switchUrl": "http://test.com/test1",
       "switchReqType": "GET",
-      "switchMessage": "RfSync 1; RfLow 1; RfHigh 1; RfCode #000000;"
+      "switchMessage": "some message"
     }
   ]
 }
