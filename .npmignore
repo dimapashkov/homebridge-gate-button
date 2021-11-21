@@ -130,4 +130,4 @@ web_modules/
 .yarn/build-state.yml
 .pnp.*
 .idea
-ino
+gate.ino
